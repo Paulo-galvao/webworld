@@ -1,0 +1,391 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main, .content {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul {
+    padding: 0px!important; /* reseta as configurações padrões do navegador */
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+    
+.logo {
+    padding: 17px;
+    width: 70%;
+    float: left;
+}
+
+.redes-sociais {
+    width: 22%;
+    float: right;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+.redes-sociais ul li {
+    display: inline; /* retira a estilização padrão */
+    float: left;
+    list-style: none; /* romove as bolinhas, não está sendo usado */
+    margin-right: 25px;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin: 15px;
+    padding: 0;
+}
+
+.menu ul li a:hover { /* para mudar a cor quando passa o mouse */
+    color: #00bac6;
+    border-bottom: 2px solid #00bac6;
+    padding-bottom: 31px;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none; /* remove as linhas inferiores nesse caso */
+    font-size: 16px;
+    text-transform: uppercase; /* estabelece o tamanho da letra */
+    margin-right: 2px;
+}
+
+.menu {
+    width: 75%;
+    float: left;
+}
+
+.busca {
+    width: 20%;
+    float: left;
+
+}
+
+.busca input {
+    background-image: url('../img/lupa.png'); /* atribui uma imagem de fundo */ 
+    background-repeat: no-repeat;
+    background-position: 95%;
+    margin-top: 20px;
+    height: 34px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+    padding-left: 10px;
+    
+}
+
+.menu-pr-2 {
+    width: 100%;
+    height: 80px;
+    float: left;
+    position: relative;
+    border-bottom: 4px solid #efefef;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    float: left;
+    border-bottom: 8px solid #696970;
+}
+
+button.slick-prev { /* botão de retornar */
+    /* reseta as configurações iniciais do botão */
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    /* tamanho do icone do botão */
+    height: 51px; 
+    width: 25px; 
+   /* estilização do novo botão */
+    position: absolute;
+    z-index: 9;
+    top: 33%;
+    left: 13%;
+    background-image: url('../img/anterior.png');
+}
+
+button.slick-next { /* botão de avançar */
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 26px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    top: 33%;
+    right: 15%;
+    background-image: url('../img/proximo.png');
+}
+
+.slick-dots {
+    margin: 0 auto;
+    left: 48%;
+    bottom: 4%;
+    position: absolute;
+}
+
+ul.slick-dots li {
+    display: inline-block;
+    padding-left: 6px;
+}
+
+ul.slick-dots li button {
+    font-size: 0;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    
+}
+
+ul.slick-dots li.slick-active button {
+    background-color: #00bac6;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-top: 1em;
+}
+
+.content h1 {
+    position: relative;
+    color: #818181;
+    font-size: 30px;
+}
+
+.content h1 strong {
+    color: #3d3d3d;
+}
+
+.content p {
+    color: #a9a9a9;
+    font-size: 15px;
+}
+
+.col-3 {
+    width: 30%;
+    float: left;
+    position: relative;
+    padding: 0 15px;
+    margin-top: 3em;
+}
+
+.box-meio {
+    padding-top: 50px;
+}
+
+main .fotos {
+    width: 100%;
+    float: left;
+}
+
+.bloco-imagem {
+    float: left;
+    background-color:  #eeeeee;
+    width: 100% !important;
+    padding-bottom: 50px;
+}
+
+.bloco-imagem::before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.fotos ul li {
+    width: 30%;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 22px;
+}
+
+.ft-upper ul li h4 {
+    position: relative;
+    padding-left: 20px;
+}
+
+.ft-upper ul li p {
+    position: relative;
+    padding-left: 20px;
+    width: 70%;
+}
+
+.ft-bottom ul li h4 {
+    position: relative;
+    padding-left: 20px;
+}
+
+.ft-bottom ul li p {
+    position: relative;
+    padding-left: 20px;
+    width: 70%;
+}
+
+.content ul li {
+    display: inline-block;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+}
+
+.col-4 img {
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0;
+
+}
+
+.behance {
+    padding-top: 20px;
+}
+
+.foot {
+    width: 100%;
+    height: 400px;
+    float: left;
+    position: relative;
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.col-5 {
+    float: left;
+    width: 25%;
+}
+
+.col-5 h3 {
+    margin-left: 150px;
+}
+
+.about {
+    margin-left: -90px;
+    margin-right: 85px;
+}
+
+.get {
+    margin-left: -175px;
+    margin-right: 150px;
+}
+
+.col-5 p {
+    margin-left: 150px;
+}
+
+.clock {
+    margin-left: 150px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ffffff ;
+}
+
+.clock::before {
+    content: '';
+    width: 14px;
+    height: 13px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+}
+
+.pop {
+    float: left;
+    margin-top: 30px;
+}
+
+.local::before {
+    content: '';
+    width: 13px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/emailico.png');
+    padding-right: 15px;
+}
+
+.mail::before {
+    content: '';
+    height: 13px;
+    height: 17px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/email.png');
+    padding-right: 30px;
+}
+
+.phone::before {
+    content: '';
+    height: 13px;
+    height: 13px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/telefoneico.png');
+    padding-right: 28px;
+}
+
+.foot-2 {
+    color: #c1c1c1;
+    width: 100%;
+    height: 80px;
+    float: left;
+    position: relative;
+    background-image: url('../img/footer2.png');
+}
+
+.foot-2 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.rights {
+    width: 75%;
+    float: left;
+    position: relative;
+}
+
+.rights p {
+    margin-left: 150px;
+    margin-top: 35px;
+    position: relative;
+}
+
+.redes-sociais-2 {
+    width: 25%;
+    float: right;
+    position: relative;
+    margin-top: 13px;
+    
+}
+
+.redes-sociais-2 ul li {
+    display: inline-block;
+    padding-right: 15px;
+    
+}
